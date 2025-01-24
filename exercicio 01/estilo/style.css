@@ -25,6 +25,11 @@ section {
     width: 500px;
 }
 
+div {
+    text-align: center;
+    padding: 10px;
+}
+
 #imagem {
     width: 250px;
     height: auto;
