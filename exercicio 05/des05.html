@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analise de Números</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body">
+    <header>
+        <h1>ADICIONE NÚMEROS NA LISTA</h1>
+    </header>
+        <section>
+            <div id="div1">
+                Número entre (1 a 100): 
+                <input type="number" name="fnum" id="fnum" placeholder="1 a 100">
+                <input type="button" value="Adicionar" id="badd" onclick="adicionar()">
+                <br><br><select name="flista" id="flista" size="10">
+                    <option value="flista">Adicione números aqui!</option>
+                        </select>
+                <br><br><input type="button" value="Finalizar" id="bfim" onclick="finalizar()">
+            </div>
+            <div id="res">
+
+            </div>
+            <div id="reiniciarDiv" style="display: none;">
+                <input type="button" value="Reiniciar" onclick="reiniciar()">
+            </div>
+        </section>
+    <footer>
+        <p>&copy; Leonardo Henrique</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
