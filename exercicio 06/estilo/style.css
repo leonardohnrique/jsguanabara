@@ -33,6 +33,10 @@ div {
     padding: 10px;
 }
 
+select#flista {
+    width: 300px;
+}
+
 
 footer {
     font-size: small;
